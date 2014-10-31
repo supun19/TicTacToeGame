@@ -1,0 +1,9 @@
+create database Game;
+use Game;
+create table Player(
+	
+	name varchar(100) not null primary key,
+	Win_Score int(4),
+	Loos_Score int(4)	
+
+)ENGINE=INNODB;
